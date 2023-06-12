@@ -78,3 +78,5 @@ According to the t test, the probability of getting a result that we just obtain
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variables causes the other, or whether they perhaps are related for some other reason.  Watch the chapter 6 videos from the George Town videos collection.!-->
+
+Today we used graphical, numerical, and inferential results to come to our conclusions. Each set of results further prove that there is a big difference between the VitC cultivation methods. Looking at the graphical results, for example, simply by looking at the picture, you can see they aren't the same. If they were the same, they would have similar graphs, but this isn't the case. They have totally different graphs. Looking at the other results, we can conclude they are statistically different. 
