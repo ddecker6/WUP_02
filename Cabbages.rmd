@@ -35,6 +35,23 @@ veggy <- cabbages
 
 <!--Graphical results here.  Make sure to show your code.  Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too.  Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
+
+```{r}
+# Assuming the data frame is called "veggy" and the required package is installed
+
+library(ggplot2)
+
+# Create a box plot
+ggplot(veggy, aes(x = Cult, y = VitC)) +
+  geom_boxplot() +
+  xlab("Cult") +
+  ylab("Vitamin C") +
+  ggtitle("Box Plot of Vitamin C by Cult") +
+  theme(plot.title = element_text(hjust = 0.5, size = 16))
+
+```
+If you look at the two boxes on the box plot, the two boxes are on different areas on the graph. They have nothing in common. When two boxes are that far apart, that means they are statistically different. They are completely displaced from each other. We may find a statistical difference between these two methods.
+
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
