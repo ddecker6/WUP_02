@@ -50,11 +50,18 @@ ggplot(veggy, aes(x = Cult, y = VitC)) +
   theme(plot.title = element_text(hjust = 0.5, size = 16))
 
 ```
+
 If you look at the two boxes on the box plot, the two boxes are on different areas on the graph. They have nothing in common. When two boxes are that far apart, that means they are statistically different. They are completely displaced from each other. We may find a statistical difference between these two methods.
 
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+
+```{r}
+favstats(VitC~Cult,data=veggy)
+```
+
+With these numerical results, the average in c39 is 51.5, while the average in c52 is 64.4 which shows how different they are. The Q1 of the c52 box is bigger than the Q1 of the c39 box. The two places are disjoint from each other. By comparing the numerical results, we can further understand there may be a difference between the two.
 
 ## Inferential Results
 
